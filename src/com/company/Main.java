@@ -12,8 +12,19 @@ public class Main {
         boolean end = false;
         ArrayList<Hada> listaDeHadas = new ArrayList<>();
         ArrayList<Humano> listaDeHumanos = new ArrayList<>();
+        System.out.println("--- Bienvenido al fiestón ---");
+        System.out.println("");
+        System.out.println("Registre sus datos a continuacion para poder ser admitido en la fiesta");
+
+
+
         while(!end)
         {
+            System.out.println("1) Registro de Hada");
+            System.out.println("2) Registro de Humano");
+            System.out.println("3) Listar todos los inscritos");
+            System.out.println("4) Salir");
+            System.out.println("Opcion: ");
             String a=sc.nextLine();
             System.out.println(a);
             switch(a)
