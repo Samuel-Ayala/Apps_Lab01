@@ -25,7 +25,6 @@ public class Main {
                 case "3":
                 {
                     break;
-
                 }
                 case "4":
                 {
@@ -40,7 +39,6 @@ public class Main {
                     end=true;
                 }
             }
-
         }
     }
 }
