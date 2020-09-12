@@ -8,7 +8,7 @@ public class Main {
 	// write your code here
         Scanner sc= new Scanner(System.in);
         boolean end = false;
-        while(true)
+        while(!end)
         {
             String a=sc.nextLine();
             System.out.println(a);
