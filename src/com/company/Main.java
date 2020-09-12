@@ -26,7 +26,6 @@ public class Main {
             System.out.println("4) Salir");
             System.out.println("Opcion: ");
             String a=sc.nextLine();
-            System.out.println(a);
             switch(a)
             {
                 case "1":
@@ -56,7 +55,7 @@ public class Main {
                 }
                 case "4":
                 {
-                    break;
+                    end = true;
                 }
                 default:
                 {
