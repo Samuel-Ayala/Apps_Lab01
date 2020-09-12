@@ -62,6 +62,7 @@ public class Main {
                         {
                             System.out.println("Debe tener menos de 20 caracteres y no contener numeros");
                         }    
+                        
                     }
                     
                     valido = false;
@@ -109,6 +110,7 @@ public class Main {
                             System.out.println("Datos mal ingresados");
                         }
                     }
+                    listaDeHadas.add(hada);
                     break;
                 }
                 case "2":
