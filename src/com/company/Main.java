@@ -107,7 +107,6 @@ public class Main {
                             System.out.println("Datos mal ingresados");
                         }
                     }
-
                     break;
                 }
                 case "2":
