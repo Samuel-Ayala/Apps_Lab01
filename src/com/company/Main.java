@@ -115,20 +115,28 @@ public class Main {
                 }
                 case "3":
                 {
-                    for ( Hada hada : listaDeHadas) {
-                        int i = 1;
-                        System.out.println("Lista de hadas: ");
-                        System.out.println(i + ") " + "Nombre: " + hada.getNombre() + " - " + "Edad: " + hada.getEdad());
-                        i++;
+                    if (listaDeHadas != null){
+                        for ( Hada hada : listaDeHadas) {
+                            int i = 1;
+                            System.out.println("Lista de hadas: ");
+                            System.out.println(i + ") " + "Nombre: " + hada.getNombre() + " - " + "Edad: " + hada.getEdad());
+                            i++;
+                        }
+                    }else {
+                        System.out.println("No hay hadas inscritos");
                     }
                     System.out.println("----------------------------------------------------------------------");
-                    for ( Humano humano : listaDeHumanos) {
-                        int ii = 1;
-                        System.out.println("Lista de humanos: ");
-                        System.out.println(ii + ") " + "Nombre: " + humano.getNombre() + " - " + "Edad: " + humano.getEdad());
-                        ii++;
+                    if (listaDeHumanos != null){
+                        for ( Humano humano : listaDeHumanos) {
+                            int ii = 1;
+                            System.out.println("Lista de humanos: ");
+                            System.out.println(ii + ") " + "Nombre: " + humano.getNombre() + " - " + "Edad: " + humano.getEdad());
+                            ii++;
+                        }
+                        break;
+                    }else {
+                        System.out.println("No hay humanos inscritos");
                     }
-                    break;
                 }
                 case "4":
                 {
