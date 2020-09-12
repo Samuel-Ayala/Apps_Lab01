@@ -31,7 +31,6 @@ public class Main {
             {
                 case "1":
                 {
-<<<<<<< HEAD
                     boolean valido = false;
                     Hada hada = new Hada();
                     while(!valido)
@@ -111,9 +110,6 @@ public class Main {
                             System.out.println("Datos mal ingresados");
                         }
                     }
-
-=======
->>>>>>> a0bf2773bf1dcf935781c4dc060262256fd76ecb
                     break;
                 }
                 case "2":
