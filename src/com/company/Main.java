@@ -16,8 +16,6 @@ public class Main {
         System.out.println("");
         System.out.println("Registre sus datos a continuacion para poder ser admitido en la fiesta");
 
-
-
         while(!end)
         {
             System.out.println("1) Registro de Hada");
@@ -30,7 +28,6 @@ public class Main {
             {
                 case "1":
                 {
-<<<<<<< HEAD
                     boolean valido = false;
                     Hada hada = new Hada();
                     while(!valido)
@@ -111,8 +108,6 @@ public class Main {
                         }
                     }
 
-=======
->>>>>>> a0bf2773bf1dcf935781c4dc060262256fd76ecb
                     break;
                 }
                 case "2":
