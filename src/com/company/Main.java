@@ -45,6 +45,7 @@ public class Main {
                                         !nombre.contains("4")&&!nombre.contains("5")&&!nombre.contains("6")&&
                                         !nombre.contains("7")&&!nombre.contains("8")&&!nombre.contains("9")) 
                                 {
+                                    hada.setNombre(nombre);
                                     valido=true;
                                 }
                                 else
@@ -94,6 +95,7 @@ public class Main {
                         String tiene=sc.nextLine();
                         if(tiene.equalsIgnoreCase("S"))
                         {
+                            hada.setTieneA(true);
                             System.out.println("Cual es el nombre de su ahijado");
                             String nombre=sc.nextLine();
                             Humano humano =new Humano();
@@ -111,6 +113,7 @@ public class Main {
                         }
                     }
                     listaDeHadas.add(hada);
+                    
                     break;
                 }
                 case "2":
