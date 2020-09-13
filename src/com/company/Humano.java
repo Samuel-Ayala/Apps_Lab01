@@ -15,6 +15,7 @@ public class Humano {
     private int edad;
     private Hada padrino;
 
+  
     /**
      * @return the nombre
      */
